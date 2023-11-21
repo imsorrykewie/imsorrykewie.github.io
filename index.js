@@ -1,11 +1,12 @@
 const UNMUTED_VOLUME = 0.15;
 const audio1 = new Audio("losing-someone.mp3");
 const audio2 = new Audio("even-dark.mp3");
-const audio3 = new Audio("moon-and-back.mp3");
+const audio3 = new Audio("fire-flood.mp3");
 const audio4 = new Audio("peter-pan.mp3");
-const audio5 = new Audio("ai-ga-tomoru.mp3");
+const audio5 = new Audio("moon-and-back.mp3");
+const audio6 = new Audio("ai-ga-tomoru.mp3");
 
-const songList = [audio1, audio2, audio3, audio4, audio5];
+const songList = [audio1, audio2, audio3, audio4, audio5, audio6];
 
 let vol = UNMUTED_VOLUME;
 let currSong = 0;
